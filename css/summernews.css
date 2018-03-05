@@ -1,0 +1,327 @@
+@font-face {
+   font-family: AlrightSans-Bold;
+   src: url(../Fonts/AlrightSans-Bold.otf);
+}
+@font-face {
+   font-family: AlrightSans-Medium;
+   src: url(../Fonts/AlrightSans-Medium.otf);
+}
+@font-face {
+   font-family: AlrightSans-Regular;
+   src: url(../Fonts/AlrightSans-Regular.otf);
+}
+@font-face {
+   font-family: TiemposHeadline-Medium;
+   src: url(../Fonts/TiemposHeadline-Medium.otf);
+}
+@font-face {
+   font-family: TiemposText-Medium;
+   src: url(../Fonts/TiemposText-Medium.otf);
+}
+@font-face {
+   font-family: TiemposText-Regular;
+   src: url(../Fonts/TiemposText-Regular.otf);
+}
+.body{
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.bkg{
+    width: 100vw;
+    height: auto;
+    background-color: #ffffff;
+    z-index: -100;
+}
+
+.bkg2{
+    width: 100vw;
+    height: auto;
+    background-color: #f7f8f9;
+    z-index: -100;
+}
+
+.bkg3{
+    width: 100vw;
+    height: auto;
+    background-color: #ffffff;
+    z-index: -100;
+    margin-top: 3%;
+}
+
+.bkg4{
+    width: 100vw;
+    height: auto;
+    background-color: #ffffff;
+    z-index: -100;
+    margin-top: 5%;
+}
+
+.container{
+    height: auto;
+    width: 100vw;
+    background-color: #ffffff;
+    z-index: -100;
+}
+
+.rslogo{
+    width: 141px;
+    height: 36px;
+    margin-top: 14px;
+}
+
+.viewinb{
+    margin-top: 25px;
+    font-size: .85em;
+    color: #ec5447;
+    font-family: AlrightSans-Regular;
+    text-align: right;
+    margin-right: 2%;
+}
+
+.Summer-Newsletter{
+    font-family: TiemposText-Regular;
+    font-size: 3em;
+    color: #0a273c;
+    margin-top: 50px;
+    line-height: 45px;
+}
+
+.NewsletterGraphicPlaceholder{
+    width: 70%;
+    height: auto;
+}
+
+.description{
+    line-height: 17px;
+    font-size: 1em;
+    color: #85939e;
+}
+
+.Bitmap{
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+}
+
+.TRACTION{
+    font-family: AlrightSans-Bold;
+    color: #60cbe2;
+    font-size: 1em;
+    margin-top: 30px;
+}
+
+.Traction-Conference{
+    font-family: TiemposHeadline-Medium;
+    color: #0a273c;
+    font-size: 2em;
+    line-height: normal;
+}
+
+.hi-there{
+    font-family: AlrightSans-Regular;
+    color: #0a273c;
+    font-size: 1em;
+    line-height: 19px;
+}
+
+.hi-there-red{
+    font-family: AlrightSans-Regular;
+    color: #ec5447;
+    font-size: 1em;
+    line-height: 19px;
+    display: inline-block;
+}
+
+.Rectangle-4{
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-bottom: 30px;
+    width: 25%;
+    height: 1px;
+    background-color: #85939e;
+    position: absolute;
+    display: inline-block;
+}
+
+.Tips-for-Action{
+    font-family: TiemposText-Medium;
+    color: #0a273c;
+    font-size: 2em;
+    line-height: normal;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.description-2{
+    font-family: AlrightSans-Regular;
+    color: #0a273c;
+    font-size: 1em;
+    line-height: 19px;
+    text-align: center;
+}
+
+.subtitle{
+    font-family: AlrightSans-Bold;
+    color: #0a273c;
+    font-size: 1.5em;
+    line-height: 19px;
+    text-align: left;
+    margin-top: 7%;
+}
+
+.growth-icon{
+    width: 70%;
+    height: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+}
+
+.allCapsBlue{
+    font-family: AlrightSans-Bold;
+    color: #60cbe2;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.Line-2{
+    width: 600px;
+    height: 3px;
+    background-color: deeppink;
+}
+
+.blogposts{
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 10%;
+    border: solid 1px #eceef0;
+}
+
+.BlogGraphicPlaceholder{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.blogsubtitle{
+    font-family: TiemposHeadline-Medium;
+    color: #0a273c;
+    font-size: 1.5em;
+    line-height: 19px;
+    text-align: left;
+    margin-left: 4%;
+}
+
+.allCapsBlueBlog{
+    font-family: AlrightSans-Bold;
+    color: #60cbe2;
+    font-size: 1em;
+    margin-top: 40px;
+    margin-left: 4%;
+}
+
+.redfoot{
+    background-color: #ec5447;
+    color: #ffffff;
+    width: 100vw;
+    height: 75px;
+    text-align: center;
+    display: inline-block;
+    left: 0px;
+}
+
+.redfootregular{
+    font-family: AlrightSans-Regular;
+    display: inline-block; 
+    font-size: 1em;
+    margin-top: 1%;
+}
+
+.redfootbold{
+    font-family: AlrightSans-Medium;
+    display: inline-block;
+    font-size: 1em;
+}
+
+.tip{
+    background-color: #ffffff;
+    margin-top: 3%;
+    margin-left: 3%;
+    border: solid 1px #eceef0;
+}
+
+.tractionconference{
+    background-color: #ffffff;
+     margin-left: 3%;
+}
+
+.description-3{
+    line-height: 17px;
+    font-size: 1em;
+    margin-left: 4%;
+}
+
+.socialmediaicon{
+    width: 20%;
+    height: auto;
+    margin: 1%;
+    right: 0;
+    float: right;
+}
+
+.madeincanada{
+    margin-top: 25px;
+    font-size: .85em;
+    color: #85939e;
+    font-family: AlrightSans-Regular;
+    margin-right: 2%;
+    margin-top: 1%;
+    align-content: center;
+}
+
+.canada{
+    text-align: left;
+    display: inline-block;
+}
+
+.mapleleaf{
+    width: 20px;
+    height: auto;
+    display: inline-block;
+}
+
+.social{
+    width: 100px;
+    right: 0;
+    align-content: right;
+    
+}
+
+.viewinbfoot{
+    float: left;
+    font-family: AlrightSans-Regular;
+}
+
+.unsubscribe{
+    float:right;
+    font-family: AlrightSans-Regular;
+}
+
+.allrights{
+    text-align: center;
+    font-family: AlrightSans-Regular;
+    color: #85939e;
+}
+
+.logofoot{
+    width: 60%;
+    height: auto;
+    margin-bottom: 50%;
+}
